@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url('main.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #ecf0f1;
+    font-family: Arial, sans-serif;
+}
+
+.stopwatch {
+    padding: 30px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 1rem;
+}
+.stopwatch h1 {
+    font-size: 6rem;
+}
+
+#display {
+    font-size: 4em;
+    margin: 20px 0;
+}
+
+.buttons button {
+    padding: 10px 20px;
+    width: 200px;
+    font-size: 2.5em;
+    margin: 5px;
+    cursor: pointer;
+    border: none;
+    border-radius: 1rem;
+}
+#laps {
+    margin-top: 20px;
+    font-size: 1.5em;
+    color: #000;
+}
